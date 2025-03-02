@@ -1,0 +1,80 @@
+
+/* this is where we control our text for the main header */
+h1{
+    text-align: center;
+}
+/* the nav section is where we control the look of the navigation bar */
+nav{
+    background-color: yellow;
+    color: black;
+    border-color: rgb(55, 54, 54);
+    border-radius: 10px;
+    height: 300px;
+    width: 150px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    list-style: none;
+}
+nav a{
+    padding: 10px;
+    display:block;
+    text-align: left;
+    font-size: 30px;
+    
+}
+nav a:hover{
+    background-color: hsl(60, 28%, 55%);
+}
+/* this is the place where we control the body portion of the html */
+body{
+    background-image: url("Images/Circuitboard1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+    text-align: center;
+}
+/* This is how we control the style and look of the buttons */
+button{
+    background-color: yellowgreen;
+    color: whitesmoke;
+    border-color: red;
+    border-style: outset;
+    border-radius: 12px;
+    cursor: zoom-in;
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+    border-color: greenyellow;
+    color: black;
+}
+/* Notice the .btn: this is how we control the buttons seperately */
+.btn:hover{
+    background-color: orange;
+    padding: 10px 10px;
+    transition-duration: .75;
+    color: black;
+}
+.btn{
+    background-color: yellowgreen;
+    color: red;
+    border-style: outset;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 20px;
+}
+/* using copy right (&lt, &c, &gt) for the footer */
+footer{
+    text-align: center;
+    margin-right: 200px;
+    font-size: x-large;
+    font-style: italic;
+}
+.memeImage{
+    margin-right: 200px;
+}
